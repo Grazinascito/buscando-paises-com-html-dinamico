@@ -5,12 +5,12 @@
 }
 
 body{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url('./img/665921978b9b369fc28574bce93caadc.jpg');
+    height: 100%;
     
 
 }
@@ -24,7 +24,7 @@ input{
     padding: 8px 40px;
     border-radius: 6px;
     outline: none;
-    
+   
 }
 
 .paises{
@@ -39,12 +39,16 @@ input{
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 20px;
+    width: 1050px;
+    justify-content: center;
+    font-family: sans-serif;
 }
 
 .pais{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     
     
 }
@@ -54,7 +58,9 @@ span{
 }
 
 label{
-    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
     font-size: 25px;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
